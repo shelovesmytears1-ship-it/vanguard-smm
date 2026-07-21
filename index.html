@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<html lang="ru" class="scroll-smooth">
+<html lang="pl" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SMM Vanguard — SMM как точная наука</title>
-  <meta name="description" content="SMM Vanguard — продвижение в соцсетях как точная наука. Контент-архитектура, работа с алгоритмами ленты, удержание внимания и рост метрик. Никакой лирики — только результат.">
+  <title>SMM Vanguard — SMM jako ścisła nauka</title>
+  <meta name="description" content="SMM Vanguard — promocja w social mediach jako ścisła nauka. Architektura treści, praca z algorytmami feedu, utrzymanie uwagi i wzrost metryk. Bez poezji — tylko wynik.">
   <meta name="theme-color" content="#0a0a0a">
 
   <!-- Open Graph / social preview -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="SMM Vanguard">
-  <meta property="og:title" content="SMM Vanguard — SMM как точная наука">
-  <meta property="og:description" content="Контент-архитектура, алгоритмы ленты, удержание внимания и рост метрик. Никакой лирики — только результат.">
+  <meta property="og:title" content="SMM Vanguard — SMM jako ścisła nauka">
+  <meta property="og:description" content="Architektura treści, algorytmy feedu, utrzymanie uwagi i wzrost metryk. Bez poezji — tylko wynik.">
   <meta property="og:url" content="https://shelovesmytears1-ship-it.github.io/vanguard-smm/">
-  <meta property="og:image" content="https://shelovesmytears1-ship-it.github.io/vanguard-smm/img/a_A_hyper-realistic_ed.jpeg">
+  <meta property="og:image" content="https://shelovesmytears1-ship-it.github.io/vanguard-smm/img/a_A_hyper-realistic_ed.webp">
   <meta property="og:locale" content="ru_RU">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="SMM Vanguard — SMM как точная наука">
-  <meta name="twitter:description" content="Контент-архитектура, алгоритмы ленты, рост метрик. Только результат.">
-  <meta name="twitter:image" content="https://shelovesmytears1-ship-it.github.io/vanguard-smm/img/a_A_hyper-realistic_ed.jpeg">
+  <meta name="twitter:title" content="SMM Vanguard — SMM jako ścisła nauka">
+  <meta name="twitter:description" content="Architektura treści, algorytmy feedu, wzrost metryk. Tylko wynik.">
+  <meta name="twitter:image" content="https://shelovesmytears1-ship-it.github.io/vanguard-smm/img/a_A_hyper-realistic_ed.webp">
 
   <!-- Premium Typography: Outfit (Strict Geometric) + Instrument Serif (Elegant Italic) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -181,6 +181,14 @@
     .gsap-hero { opacity: 1; }
     html.js-ready .gs-reveal,
     html.js-ready .gs-reveal-up { opacity: 0; transform: translateY(30px); }
+
+    @media (max-width: 480px) {
+      main > section:first-of-type h1 {
+        font-size: clamp(2.7rem, 12vw, 3.35rem) !important;
+        letter-spacing: -0.055em;
+        overflow-wrap: anywhere;
+      }
+    }
   </style>
 
   <!-- GSAP Core -->
@@ -198,16 +206,16 @@
         SMM_Vanguard
       </div>
       <div class="hidden md:flex items-center gap-6 text-xs font-medium uppercase tracking-widest text-brand-muted">
-        <a href="#expert" class="magnetic-btn hover:text-brand-text">Эксперт</a>
-        <a href="#curriculum" class="magnetic-btn hover:text-brand-text">Программа</a>
-        <a href="#process" class="magnetic-btn hover:text-brand-text">12 недель</a>
-        <a href="#cases" class="magnetic-btn hover:text-brand-text">Кейсы</a>
-        <a href="#testimonials" class="magnetic-btn hover:text-brand-text">Отзывы</a>
-        <a href="#investment" class="magnetic-btn hover:text-brand-text">Тарифы</a>
-        <a href="#faq" class="magnetic-btn hover:text-brand-text">Вопросы</a>
+        <a href="#expert" class="magnetic-btn hover:text-brand-text">Ekspert</a>
+        <a href="#curriculum" class="magnetic-btn hover:text-brand-text">Program</a>
+        <a href="#process" class="magnetic-btn hover:text-brand-text">12 tygodni</a>
+        <a href="#cases" class="magnetic-btn hover:text-brand-text">Case studies</a>
+        <a href="#testimonials" class="magnetic-btn hover:text-brand-text">Opinie</a>
+        <a href="#investment" class="magnetic-btn hover:text-brand-text">Pakiety</a>
+        <a href="#faq" class="magnetic-btn hover:text-brand-text">Pytania</a>
       </div>
-      <button onclick="togglePanel('Консультация')" class="text-sm font-semibold uppercase tracking-widest hover:text-brand-accent transition-colors">
-        Оставить заявку ↗
+      <button onclick="togglePanel('Konsultacja')" class="text-sm font-semibold uppercase tracking-widest hover:text-brand-accent transition-colors">
+        Zostaw zgłoszenie ↗
       </button>
     </div>
   </nav>
@@ -221,14 +229,14 @@
     <section class="border-b border-grid grid grid-cols-1 lg:grid-cols-12 min-h-[85vh]">
       <!-- Left massive text -->
       <div class="lg:col-span-8 p-8 md:p-16 lg:p-20 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-grid">
-        <div class="text-brand-muted text-sm font-mono uppercase tracking-widest mb-12 gs-reveal">Выпуск 02 / Искусство Конверсий</div>
+        <div class="text-brand-muted text-sm font-mono uppercase tracking-widest mb-12 gs-reveal">Wydanie 02 / Sztuka Konwersji</div>
         <h1 class="text-[clamp(3.5rem,8vw,7.5rem)] font-bold tracking-tighter leading-[0.95] mb-8 uppercase gs-reveal">
-          Архитектура <br>
-          <span class="font-serif italic font-light text-brand-accent lowercase tracking-normal">цифрового</span> <br>
-          роста.
+          Architektura <br>
+          <span class="font-serif italic font-light text-brand-accent lowercase tracking-normal">cyfrowego</span> <br>
+          wzrostu.
         </h1>
         <p class="text-xl text-brand-muted max-w-[45ch] leading-relaxed gs-reveal">
-          Масштабируй карьеру в SMM. От понимания ядра алгоритмов до заключения контрактов с премиальными брендами. Никакой воды, только строгая методология.
+          Skaluj karierę w SMM. Od zrozumienia rdzenia algorytmów po kontrakty z markami premium. Bez lania wody, tylko rygorystyczna metodologia.
         </p>
       </div>
       
@@ -240,7 +248,7 @@
           </svg>
         </div>
         <div class="mt-20 lg:mt-0 text-sm font-medium uppercase tracking-widest text-brand-muted max-w-[200px] leading-relaxed gs-reveal">
-          Прагматичный подход к современному маркетингу.
+          Pragmatyczne podejście do współczesnego marketingu.
         </div>
       </div>
     </section>
@@ -250,21 +258,21 @@
       <!-- To prevent cutting off on huge UW monitors, duplicate content heavily inside a max-content wrapper -->
       <div class="animate-marquee flex items-center text-3xl md:text-4xl font-serif italic text-brand-text/30">
         <!-- Set 1 -->
-        <span class="mx-8">• SMM КАК ТОЧНАЯ НАУКА</span><span class="mx-8">• 100K+ ОХВАТОВ</span><span class="mx-8">• АЛГОРИТМЫ ЛЕНТЫ</span><span class="mx-8">• ТРАФИК</span>
-        <span class="mx-8">• РОСТ МЕТРИК</span><span class="mx-8">• УДЕРЖАНИЕ ВНИМАНИЯ</span><span class="mx-8">• КОНТЕНТ-АРХИТЕКТУРА</span>
+        <span class="mx-8">• SMM JAKO ŚCISŁA NAUKA</span><span class="mx-8">• 100K+ ZASIĘGÓW</span><span class="mx-8">• ALGORYTMY FEEDU</span><span class="mx-8">• RUCH</span>
+        <span class="mx-8">• WZROST METRYK</span><span class="mx-8">• UTRZYMANIE UWAGI</span><span class="mx-8">• ARCHITEKTURA TREŚCI</span>
         <!-- Set 2 -->
-        <span class="mx-8">• SMM КАК ТОЧНАЯ НАУКА</span><span class="mx-8">• 100K+ ОХВАТОВ</span><span class="mx-8">• АЛГОРИТМЫ ЛЕНТЫ</span><span class="mx-8">• ТРАФИК</span>
-        <span class="mx-8">• РОСТ МЕТРИК</span><span class="mx-8">• УДЕРЖАНИЕ ВНИМАНИЯ</span><span class="mx-8">• КОНТЕНТ-АРХИТЕКТУРА</span>
+        <span class="mx-8">• SMM JAKO ŚCISŁA NAUKA</span><span class="mx-8">• 100K+ ZASIĘGÓW</span><span class="mx-8">• ALGORYTMY FEEDU</span><span class="mx-8">• RUCH</span>
+        <span class="mx-8">• WZROST METRYK</span><span class="mx-8">• UTRZYMANIE UWAGI</span><span class="mx-8">• ARCHITEKTURA TREŚCI</span>
         <!-- Set 3 -->
-        <span class="mx-8">• SMM КАК ТОЧНАЯ НАУКА</span><span class="mx-8">• 100K+ ОХВАТОВ</span><span class="mx-8">• АЛГОРИТМЫ ЛЕНТЫ</span><span class="mx-8">• ТРАФИК</span>
-        <span class="mx-8">• РОСТ МЕТРИК</span><span class="mx-8">• УДЕРЖАНИЕ ВНИМАНИЯ</span><span class="mx-8">• КОНТЕНТ-АРХИТЕКТУРА</span>
+        <span class="mx-8">• SMM JAKO ŚCISŁA NAUKA</span><span class="mx-8">• 100K+ ZASIĘGÓW</span><span class="mx-8">• ALGORYTMY FEEDU</span><span class="mx-8">• RUCH</span>
+        <span class="mx-8">• WZROST METRYK</span><span class="mx-8">• UTRZYMANIE UWAGI</span><span class="mx-8">• ARCHITEKTURA TREŚCI</span>
         <!-- Set 4 (Duplicate for seamless loop) -->
-        <span class="mx-8">• SMM КАК ТОЧНАЯ НАУКА</span><span class="mx-8">• 100K+ ОХВАТОВ</span><span class="mx-8">• АЛГОРИТМЫ ЛЕНТЫ</span><span class="mx-8">• ТРАФИК</span>
-        <span class="mx-8">• РОСТ МЕТРИК</span><span class="mx-8">• УДЕРЖАНИЕ ВНИМАНИЯ</span><span class="mx-8">• КОНТЕНТ-АРХИТЕКТУРА</span>
-        <span class="mx-8">• SMM КАК ТОЧНАЯ НАУКА</span><span class="mx-8">• 100K+ ОХВАТОВ</span><span class="mx-8">• АЛГОРИТМЫ ЛЕНТЫ</span><span class="mx-8">• ТРАФИК</span>
-        <span class="mx-8">• РОСТ МЕТРИК</span><span class="mx-8">• УДЕРЖАНИЕ ВНИМАНИЯ</span><span class="mx-8">• КОНТЕНТ-АРХИТЕКТУРА</span>
-        <span class="mx-8">• SMM КАК ТОЧНАЯ НАУКА</span><span class="mx-8">• 100K+ ОХВАТОВ</span><span class="mx-8">• АЛГОРИТМЫ ЛЕНТЫ</span><span class="mx-8">• ТРАФИК</span>
-        <span class="mx-8">• РОСТ МЕТРИК</span><span class="mx-8">• УДЕРЖАНИЕ ВНИМАНИЯ</span><span class="mx-8">• КОНТЕНТ-АРХИТЕКТУРА</span>
+        <span class="mx-8">• SMM JAKO ŚCISŁA NAUKA</span><span class="mx-8">• 100K+ ZASIĘGÓW</span><span class="mx-8">• ALGORYTMY FEEDU</span><span class="mx-8">• RUCH</span>
+        <span class="mx-8">• WZROST METRYK</span><span class="mx-8">• UTRZYMANIE UWAGI</span><span class="mx-8">• ARCHITEKTURA TREŚCI</span>
+        <span class="mx-8">• SMM JAKO ŚCISŁA NAUKA</span><span class="mx-8">• 100K+ ZASIĘGÓW</span><span class="mx-8">• ALGORYTMY FEEDU</span><span class="mx-8">• RUCH</span>
+        <span class="mx-8">• WZROST METRYK</span><span class="mx-8">• UTRZYMANIE UWAGI</span><span class="mx-8">• ARCHITEKTURA TREŚCI</span>
+        <span class="mx-8">• SMM JAKO ŚCISŁA NAUKA</span><span class="mx-8">• 100K+ ZASIĘGÓW</span><span class="mx-8">• ALGORYTMY FEEDU</span><span class="mx-8">• RUCH</span>
+        <span class="mx-8">• WZROST METRYK</span><span class="mx-8">• UTRZYMANIE UWAGI</span><span class="mx-8">• ARCHITEKTURA TREŚCI</span>
       </div>
     </div>
 
@@ -276,47 +284,47 @@
       <div class="px-8 md:px-16 lg:px-20 py-16 md:py-24">
         <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-12">
           <div>
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-accent mb-6 gs-reveal-up">Инструментарий / Stack</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-accent mb-6 gs-reveal-up">Narzędzia / Stack</div>
             <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold uppercase tracking-tighter leading-none max-w-2xl gs-reveal-up">
-              Технологии, которые <br>
-              <span class="font-serif italic font-light lowercase text-brand-accent">не оставляют шанса</span> конкуренту.
+              Technologie, które <br>
+              <span class="font-serif italic font-light lowercase text-brand-accent">nie zostawiają szans</span> konkurentowi.
             </h2>
           </div>
           <div class="font-mono text-xs uppercase tracking-widest text-brand-muted max-w-[200px] gs-reveal-up">
-            6 платформ, которые осваивает каждый выпускник за 12 недель.
+            6 platform, które opanowuje każdy absolwent w 12 tygodni.
           </div>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 border-l border-t border-grid">
           <div class="border-r border-b border-grid p-6 md:p-8 flex flex-col items-start gs-reveal-up">
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mb-3">Реклама</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mb-3">Reklama</div>
             <div class="text-lg md:text-xl font-bold uppercase tracking-tight">Meta Ads</div>
-            <div class="text-xs text-brand-muted mt-2">Кампании, парсинг, look-alike</div>
+            <div class="text-xs text-brand-muted mt-2">Kampanie, parsowanie, look-alike</div>
           </div>
           <div class="border-r border-b border-grid p-6 md:p-8 flex flex-col items-start gs-reveal-up" style="transition-delay: 50ms;">
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mb-3">Реклама</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mb-3">Reklama</div>
             <div class="text-lg md:text-xl font-bold uppercase tracking-tight">TikTok Ads</div>
-            <div class="text-xs text-brand-muted mt-2">Spark ads, креативные тесты</div>
+            <div class="text-xs text-brand-muted mt-2">Spark ads, testy kreacji</div>
           </div>
           <div class="border-r border-b border-grid p-6 md:p-8 flex flex-col items-start gs-reveal-up" style="transition-delay: 100ms;">
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mb-3">Аналитика</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mb-3">Analityka</div>
             <div class="text-lg md:text-xl font-bold uppercase tracking-tight">GA4</div>
-            <div class="text-xs text-brand-muted mt-2">Атрибуция, события, отчёты</div>
+            <div class="text-xs text-brand-muted mt-2">Atrybucja, zdarzenia, raporty</div>
           </div>
           <div class="border-r border-b border-grid p-6 md:p-8 flex flex-col items-start gs-reveal-up" style="transition-delay: 150ms;">
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mb-3">Парсинг</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mb-3">Parsowanie</div>
             <div class="text-lg md:text-xl font-bold uppercase tracking-tight">TargetHunter</div>
-            <div class="text-xs text-brand-muted mt-2">Сбор аудиторий, ретаргет</div>
+            <div class="text-xs text-brand-muted mt-2">Budowa grup odbiorców, retargeting</div>
           </div>
           <div class="border-r border-b border-grid p-6 md:p-8 flex flex-col items-start gs-reveal-up" style="transition-delay: 200ms;">
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mb-3">Дизайн</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mb-3">Design</div>
             <div class="text-lg md:text-xl font-bold uppercase tracking-tight">Figma</div>
-            <div class="text-xs text-brand-muted mt-2">Креативы, обложки, шаблоны</div>
+            <div class="text-xs text-brand-muted mt-2">Kreacje, okładki, szablony</div>
           </div>
           <div class="border-r border-b border-grid p-6 md:p-8 flex flex-col items-start gs-reveal-up" style="transition-delay: 250ms;">
             <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mb-3">CRM</div>
             <div class="text-lg md:text-xl font-bold uppercase tracking-tight">amoCRM</div>
-            <div class="text-xs text-brand-muted mt-2">Воронки, LTV, отчёты владельцу</div>
+            <div class="text-xs text-brand-muted mt-2">Lejki, LTV, raporty dla właściciela</div>
           </div>
         </div>
       </div>
@@ -331,7 +339,7 @@
       <div class="lg:col-span-5 border-b lg:border-b-0 lg:border-r border-grid min-h-[500px] lg:min-h-[700px] flex flex-col justify-end p-8 md:p-12 relative overflow-hidden group">
         <!-- Expert Generated Photo (Grayscale + Zoom effect) -->
         <div class="absolute inset-0 bg-cover bg-center grayscale transition-transform duration-1000 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105" 
-             style="background-image: url('./img/a_A_hyper-realistic_ed.jpeg');"></div>
+             style="background-image: url('./img/a_A_hyper-realistic_ed.webp');"></div>
         
         <!-- Name plate -->
         <div class="bg-brand-bg/90 backdrop-blur pb-3 pt-4 px-6 inline-flex flex-col md:flex-row items-baseline max-w-max border border-grid relative z-10 gs-reveal-up">
@@ -347,23 +355,23 @@
         </div>
         
         <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tighter mb-8 max-w-2xl gs-reveal-up">
-          Маркетинг — это <br>не творчество. <br>
-          <span class="font-serif italic font-light lowercase text-brand-muted">это холодная математика.</span>
+          Marketing to <br>nie twórczość. <br>
+          <span class="font-serif italic font-light lowercase text-brand-muted">to zimna matematyka.</span>
         </h2>
         
         <p class="text-brand-text/70 leading-relaxed max-w-2xl text-lg mb-16 gs-reveal-up">
-          Скучные, но точные цифры работают безотказно. За 5 лет практики я структурировал процессы создания контента для топ-сегмента и управлял рекламными активами, недоступными теоретикам. Моя задача на курсе — передать жесткий инженерный подход, который исключает выгорание и гарантирует стабильный чек.
+          Nudne, ale precyzyjne liczby działają bezbłędnie. Przez 5 lat praktyki uporządkowałem procesy tworzenia treści dla segmentu premium i zarządzałem budżetami reklamowymi, do których teoretycy nie mają dostępu. Moim zadaniem na kursie jest przekazać twarde, inżynierskie podejście, które wyklucza wypalenie i gwarantuje stabilną stawkę.
         </p>
         
         <!-- Stats block -->
         <div class="grid grid-cols-2 gap-8 border-t border-grid pt-12 gs-reveal-up">
            <div>
                <div class="text-5xl font-serif italic mb-3 text-brand-text">$5.2M</div>
-               <div class="text-xs uppercase font-bold tracking-widest text-brand-muted">Управляемый бюджет клиента в 2025</div>
+               <div class="text-xs uppercase font-bold tracking-widest text-brand-muted">Zarządzany budżet klienta w 2025</div>
            </div>
            <div>
                <div class="text-5xl font-serif italic mb-3 text-brand-text">48</div>
-               <div class="text-xs uppercase font-bold tracking-widest text-brand-muted">Закрытых Premium проектов</div>
+               <div class="text-xs uppercase font-bold tracking-widest text-brand-muted">Zamkniętych projektów Premium</div>
            </div>
         </div>
       </div>
@@ -378,24 +386,24 @@
       <div class="p-10 md:p-14 border-b md:border-b-0 md:border-r border-grid flex flex-col justify-between gs-reveal-up">
         <div class="text-6xl font-serif italic mb-16 text-brand-muted">01</div>
         <div>
-          <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">Скорость <br>внедрения</h3>
-          <p class="text-brand-muted leading-relaxed">Система построена на мгновенной практике. Разработка воронок и запуск лидогенерации происходит прямо во время модулей.</p>
+          <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">Szybkość <br>wdrożenia</h3>
+          <p class="text-brand-muted leading-relaxed">System opiera się na natychmiastowej praktyce. Lejki i lead generation budujesz na bieżąco, w trakcie modułów.</p>
         </div>
       </div>
 
       <div class="p-10 md:p-14 border-b md:border-b-0 md:border-r border-grid flex flex-col justify-between gs-reveal-up" style="transition-delay: 100ms;">
         <div class="text-6xl font-serif italic mb-16 text-brand-muted">02</div>
         <div>
-          <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">Безоговорочный <br>авторитет</h3>
-          <p class="text-brand-muted leading-relaxed">Методология выверена рынком. Мы передаем вам те самые скрипты и таблицы, с которыми работаем каждый день.</p>
+          <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">Bezwarunkowy <br>autorytet</h3>
+          <p class="text-brand-muted leading-relaxed">Metodologia zweryfikowana przez rynek. Przekazujemy Ci dokładnie te skrypty i arkusze, na których pracujemy codziennie.</p>
         </div>
       </div>
 
       <div class="p-10 md:p-14 flex flex-col justify-between gs-reveal-up" style="transition-delay: 200ms;">
         <div class="text-6xl font-serif italic mb-16 text-brand-accent">03</div>
         <div>
-          <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">Железные <br>гарантии</h3>
-          <p class="text-brand-muted leading-relaxed">Предоставление клиентов для стажировки на старших тарифах. Вы не просто получаете сертификат, вы строите карьеру.</p>
+          <h3 class="text-2xl font-bold uppercase tracking-tight mb-4">Żelazne <br>gwarancje</h3>
+          <p class="text-brand-muted leading-relaxed">Klienci na staż w wyższych pakietach. Nie dostajesz tylko certyfikatu — budujesz karierę.</p>
         </div>
       </div>
     </section>
@@ -406,38 +414,38 @@
          ========================================= -->
     <section id="curriculum" class="border-b border-grid grid grid-cols-1 lg:grid-cols-12 bg-white">
       <div class="lg:col-span-4 p-10 md:p-16 border-b lg:border-b-0 lg:border-r border-grid">
-        <h2 class="text-4xl md:text-5xl font-bold uppercase tracking-tighter mb-4 gs-reveal-up">Дисциплина.</h2>
-        <p class="text-brand-muted font-serif italic text-2xl gs-reveal-up">Конфликт теории и <br>практики разрешён.</p>
+        <h2 class="text-4xl md:text-5xl font-bold uppercase tracking-tighter mb-4 gs-reveal-up">Dyscyplina.</h2>
+        <p class="text-brand-muted font-serif italic text-2xl gs-reveal-up">Konflikt teorii i <br>praktyki rozstrzygnięty.</p>
       </div>
       
       <div class="lg:col-span-8 flex flex-col">
         <!-- Module I -->
         <div class="p-10 md:p-12 border-b border-grid flex flex-col md:flex-row gap-8 items-start hover:bg-brand-bg transition-colors gs-reveal-up">
-          <div class="w-16 font-mono text-sm text-brand-muted uppercase pt-1">Модуль I</div>
+          <div class="w-16 font-mono text-sm text-brand-muted uppercase pt-1">Moduł I</div>
           <div>
             <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-4 flex flex-wrap items-center gap-4">
-              Контент-Инженерия
-              <span class="font-serif italic font-light text-brand-accent text-2xl lowercase tracking-normal">фундамент</span>
+              Inżynieria Treści
+              <span class="font-serif italic font-light text-brand-accent text-2xl lowercase tracking-normal">fundament</span>
             </h3>
-            <p class="text-brand-muted leading-relaxed max-w-[60ch]">Проектирование визуальной парадигмы. Копирайтинг без шаблонов, разработка сторителлинга и создание сложных цепочек удержания внимания.</p>
+            <p class="text-brand-muted leading-relaxed max-w-[60ch]">Projektowanie paradygmatu wizualnego. Copywriting bez szablonów, budowa storytellingu i złożonych łańcuchów utrzymania uwagi.</p>
           </div>
         </div>
         
         <!-- Module II -->
         <div class="p-10 md:p-12 border-b border-grid flex flex-col md:flex-row gap-8 items-start hover:bg-brand-bg transition-colors gs-reveal-up">
-          <div class="w-16 font-mono text-sm text-brand-muted uppercase pt-1">Модуль II</div>
+          <div class="w-16 font-mono text-sm text-brand-muted uppercase pt-1">Moduł II</div>
           <div>
-            <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-4">Управление Трафиком</h3>
-            <p class="text-brand-muted leading-relaxed max-w-[60ch]">Хирургическая точность настройки. Парсинг, распределение бюджетов, создание сплит-тестов и строгая оптимизация юнит-экономики.</p>
+            <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-4">Zarządzanie Ruchem</h3>
+            <p class="text-brand-muted leading-relaxed max-w-[60ch]">Chirurgiczna precyzja ustawień. Parsowanie, podział budżetów, testy A/B i rygorystyczna optymalizacja unit economics.</p>
           </div>
         </div>
 
         <!-- Module III -->
         <div class="p-10 md:p-12 flex flex-col md:flex-row gap-8 items-start hover:bg-brand-bg transition-colors gs-reveal-up">
-          <div class="w-16 font-mono text-sm text-brand-muted uppercase pt-1">Модуль III</div>
+          <div class="w-16 font-mono text-sm text-brand-muted uppercase pt-1">Moduł III</div>
           <div>
-            <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-4">Переговоры & Аналитика</h3>
-            <p class="text-brand-muted leading-relaxed max-w-[60ch]">Расчет LTV/CAC, подготовка коммерческих предложений. Уверенное закрытие корпоративных заказчиков на чеки от 100,000₽.</p>
+            <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-4">Negocjacje & Analityka</h3>
+            <p class="text-brand-muted leading-relaxed max-w-[60ch]">Wyliczanie LTV/CAC i przygotowanie ofert handlowych. Pewne zamykanie klientów korporacyjnych na kwoty od 10 000 zł.</p>
           </div>
         </div>
       </div>
@@ -450,13 +458,13 @@
     <section id="process" class="border-b border-grid grid grid-cols-1 lg:grid-cols-12">
       <div class="lg:col-span-4 p-10 md:p-16 border-b lg:border-b-0 lg:border-r border-grid bg-brand-text text-brand-bg flex flex-col justify-between min-h-[500px]">
         <div>
-          <div class="text-xs font-mono uppercase tracking-widest text-brand-accent mb-6 gs-reveal-up">Дорожная карта / 12 недель</div>
+          <div class="text-xs font-mono uppercase tracking-widest text-brand-accent mb-6 gs-reveal-up">Mapa drogowa / 12 tygodni</div>
           <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tighter mb-8 leading-none gs-reveal-up">
-            Расписание <br>
-            <span class="font-serif italic font-light lowercase text-brand-accent">без воды.</span>
+            Harmonogram <br>
+            <span class="font-serif italic font-light lowercase text-brand-accent">bez lania wody.</span>
           </h2>
           <p class="text-brand-bg/70 max-w-[40ch] leading-relaxed gs-reveal-up">
-            Каждая неделя — измеримый результат. Никаких философских блоков «найти себя».
+            Każdy tydzień to mierzalny wynik. Żadnych filozoficznych bloków „odnajdź siebie”.
           </p>
         </div>
         <div class="hidden lg:flex w-16 h-16 rounded-full border border-brand-bg/20 items-center justify-center mt-12 gs-reveal-up">
@@ -468,42 +476,42 @@
 
       <div class="lg:col-span-8 flex flex-col">
         <div class="p-8 md:p-12 border-b border-grid flex flex-col md:flex-row gap-6 items-start hover:bg-white transition-colors gs-reveal-up">
-          <div class="font-mono text-xs uppercase tracking-widest text-brand-muted md:w-36 pt-1 shrink-0">Недели 01–02</div>
+          <div class="font-mono text-xs uppercase tracking-widest text-brand-muted md:w-36 pt-1 shrink-0">Tygodnie 01–02</div>
           <div>
-            <h3 class="text-xl md:text-2xl font-bold uppercase tracking-tight mb-3">Установка инфраструктуры</h3>
-            <p class="text-brand-muted leading-relaxed max-w-[55ch]">Подключение всех кабинетов, настройка пикселей, проверка трекинга. К концу недели 2 — твоя система собирает данные.</p>
+            <h3 class="text-xl md:text-2xl font-bold uppercase tracking-tight mb-3">Budowa infrastruktury</h3>
+            <p class="text-brand-muted leading-relaxed max-w-[55ch]">Podpięcie wszystkich paneli, konfiguracja pikseli, weryfikacja trackingu. Do końca 2. tygodnia Twój system zbiera dane.</p>
           </div>
         </div>
 
         <div class="p-8 md:p-12 border-b border-grid flex flex-col md:flex-row gap-6 items-start hover:bg-white transition-colors gs-reveal-up">
-          <div class="font-mono text-xs uppercase tracking-widest text-brand-muted md:w-36 pt-1 shrink-0">Недели 03–05</div>
+          <div class="font-mono text-xs uppercase tracking-widest text-brand-muted md:w-36 pt-1 shrink-0">Tygodnie 03–05</div>
           <div>
-            <h3 class="text-xl md:text-2xl font-bold uppercase tracking-tight mb-3">Контент-конвейер</h3>
-            <p class="text-brand-muted leading-relaxed max-w-[55ch]">Сценарии reels, копирайтинг постов, A/B тесты обложек. 30+ единиц контента к концу недели 5.</p>
+            <h3 class="text-xl md:text-2xl font-bold uppercase tracking-tight mb-3">Taśma produkcyjna treści</h3>
+            <p class="text-brand-muted leading-relaxed max-w-[55ch]">Scenariusze reels, copywriting postów, testy A/B okładek. 30+ jednostek treści do końca 5. tygodnia.</p>
           </div>
         </div>
 
         <div class="p-8 md:p-12 border-b border-grid flex flex-col md:flex-row gap-6 items-start hover:bg-white transition-colors gs-reveal-up">
-          <div class="font-mono text-xs uppercase tracking-widest text-brand-muted md:w-36 pt-1 shrink-0">Недели 06–08</div>
+          <div class="font-mono text-xs uppercase tracking-widest text-brand-muted md:w-36 pt-1 shrink-0">Tygodnie 06–08</div>
           <div>
-            <h3 class="text-xl md:text-2xl font-bold uppercase tracking-tight mb-3">Запуск трафика</h3>
-            <p class="text-brand-muted leading-relaxed max-w-[55ch]">Первая закупка — минимум 50,000₽ бюджета на тестовые кампании. Анализ CPM, CTR, CAC. Оптимизация по жёстким KPI.</p>
+            <h3 class="text-xl md:text-2xl font-bold uppercase tracking-tight mb-3">Uruchomienie ruchu</h3>
+            <p class="text-brand-muted leading-relaxed max-w-[55ch]">Pierwszy zakup ruchu — minimum 5 000 zł budżetu na kampanie testowe. Analiza CPM, CTR, CAC. Optymalizacja pod twarde KPI.</p>
           </div>
         </div>
 
         <div class="p-8 md:p-12 border-b border-grid flex flex-col md:flex-row gap-6 items-start hover:bg-white transition-colors gs-reveal-up">
-          <div class="font-mono text-xs uppercase tracking-widest text-brand-muted md:w-36 pt-1 shrink-0">Недели 09–10</div>
+          <div class="font-mono text-xs uppercase tracking-widest text-brand-muted md:w-36 pt-1 shrink-0">Tygodnie 09–10</div>
           <div>
-            <h3 class="text-xl md:text-2xl font-bold uppercase tracking-tight mb-3">Юнит-экономика</h3>
-            <p class="text-brand-muted leading-relaxed max-w-[55ch]">LTV/CAC, сложные модели атрибуции, отчёты для собственника. Учишься говорить языком чисел.</p>
+            <h3 class="text-xl md:text-2xl font-bold uppercase tracking-tight mb-3">Unit economics</h3>
+            <p class="text-brand-muted leading-relaxed max-w-[55ch]">LTV/CAC, złożone modele atrybucji, raporty dla właściciela. Uczysz się mówić językiem liczb.</p>
           </div>
         </div>
 
         <div class="p-8 md:p-12 flex flex-col md:flex-row gap-6 items-start hover:bg-white transition-colors gs-reveal-up">
-          <div class="font-mono text-xs uppercase tracking-widest text-brand-accent md:w-36 pt-1 shrink-0">Недели 11–12</div>
+          <div class="font-mono text-xs uppercase tracking-widest text-brand-accent md:w-36 pt-1 shrink-0">Tygodnie 11–12</div>
           <div>
-            <h3 class="text-xl md:text-2xl font-bold uppercase tracking-tight mb-3">Переговоры & Закрытие</h3>
-            <p class="text-brand-muted leading-relaxed max-w-[55ch]">Создание portfolio deck, выход на корпоративных клиентов, подписание первого контракта от 100,000₽.</p>
+            <h3 class="text-xl md:text-2xl font-bold uppercase tracking-tight mb-3">Negocjacje & Zamykanie</h3>
+            <p class="text-brand-muted leading-relaxed max-w-[55ch]">Budowa portfolio deck, wyjście na klientów korporacyjnych, podpisanie pierwszego kontraktu od 10 000 zł.</p>
           </div>
         </div>
       </div>
@@ -516,11 +524,11 @@
     <section id="cases" class="border-b border-grid flex flex-col">
       <div class="p-10 md:p-16 border-b border-grid flex flex-col md:flex-row justify-between items-baseline gap-8">
         <h2 class="text-4xl md:text-5xl font-bold uppercase tracking-tighter gs-reveal-up">
-          Метрики. <br>
-          <span class="font-serif italic font-light text-brand-muted lowercase">никакой лирики.</span>
+          Metryki. <br>
+          <span class="font-serif italic font-light text-brand-muted lowercase">bez poezji.</span>
         </h2>
         <div class="text-sm font-mono uppercase tracking-widest text-brand-accent max-w-[300px] text-right hidden md:block">
-          Результаты применения архитектуры на реальных проектах.
+          Efekty zastosowania architektury na realnych projektach.
         </div>
       </div>
 
@@ -528,23 +536,23 @@
         <!-- Case 1 -->
         <div class="p-10 md:p-12 border-b md:border-r border-grid hover:bg-white transition-colors flex flex-col cursor-pointer gs-reveal-up">
           <div class="flex flex-wrap justify-between items-start mb-12 gap-4">
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted">Ниша: E-commerce / Fashion</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted">Nisza: E-commerce / Fashion</div>
             <div class="text-xs font-bold uppercase tracking-widest border border-grid px-3 py-1.5 text-brand-accent bg-white">+450% ROMI</div>
           </div>
           <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-10 pr-8">
-            Масштабирование <br>бренда премиум-одежды
+            Skalowanie <br>marki odzieży premium
           </h3>
           <div class="flex flex-col gap-4 mt-auto">
             <div class="flex justify-between items-end border-b border-grid pb-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">Срок работы</span>
-              <span class="font-medium">4 месяца</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">Czas trwania</span>
+              <span class="font-medium">4 miesiące</span>
             </div>
             <div class="flex justify-between items-end border-b border-grid pb-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">Вложения в трафик</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">Inwestycje w ruch</span>
               <span class="font-medium">500,000 ₽</span>
             </div>
             <div class="flex justify-between items-end pt-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">Итоговая выручка</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">Przychód końcowy</span>
               <span class="font-serif italic text-2xl font-bold text-brand-accent">2,750,000 ₽</span>
             </div>
           </div>
@@ -553,23 +561,23 @@
         <!-- Case 2 -->
         <div class="p-10 md:p-12 border-b border-grid hover:bg-white transition-colors flex flex-col cursor-pointer gs-reveal-up" style="transition-delay: 100ms;">
           <div class="flex flex-wrap justify-between items-start mb-12 gap-4">
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted">Ниша: Real Estate Luxe</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted">Nisza: Real Estate Luxe</div>
             <div class="text-xs font-bold uppercase tracking-widest border border-grid px-3 py-1.5 text-brand-accent bg-white">CPL ÷3</div>
           </div>
           <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-10 pr-8">
-            Лидогенерация <br>на недвижимость в Дубае
+            Lead generation <br>na nieruchomości w Dubaju
           </h3>
           <div class="flex flex-col gap-4 mt-auto">
             <div class="flex justify-between items-end border-b border-grid pb-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">Получено лидов</span>
-              <span class="font-medium">48 квалифицированных</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">Pozyskane leady</span>
+              <span class="font-medium">48 kwalifikowanych</span>
             </div>
             <div class="flex justify-between items-end border-b border-grid pb-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">Цикл сделки</span>
-              <span class="font-medium">45 дней</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">Cykl transakcji</span>
+              <span class="font-medium">45 dni</span>
             </div>
             <div class="flex justify-between items-end pt-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">Объём сделок</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">Wartość transakcji</span>
               <span class="font-serif italic text-2xl font-bold text-brand-accent">$3.2M</span>
             </div>
           </div>
@@ -578,23 +586,23 @@
         <!-- Case 3 (NEW) -->
         <div class="p-10 md:p-12 border-b md:border-b-0 md:border-r border-grid hover:bg-white transition-colors flex flex-col cursor-pointer gs-reveal-up" style="transition-delay: 200ms;">
           <div class="flex flex-wrap justify-between items-start mb-12 gap-4">
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted">Ниша: B2B SaaS</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted">Nisza: B2B SaaS</div>
             <div class="text-xs font-bold uppercase tracking-widest border border-grid px-3 py-1.5 text-brand-accent bg-white">CAC ÷2.4</div>
           </div>
           <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-10 pr-8">
-            Pipeline-строительство <br>для productivity SaaS
+            Budowa pipeline'u <br>dla productivity SaaS
           </h3>
           <div class="flex flex-col gap-4 mt-auto">
             <div class="flex justify-between items-end border-b border-grid pb-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">Демо-звонки / месяц</span>
-              <span class="font-medium">62 квалифицированных</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">Rozmowy demo / miesiąc</span>
+              <span class="font-medium">62 kwalifikowanych</span>
             </div>
             <div class="flex justify-between items-end border-b border-grid pb-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">CAC до / после</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">CAC przed / po</span>
               <span class="font-medium">$340 → $142</span>
             </div>
             <div class="flex justify-between items-end pt-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">MRR прирост</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">Wzrost MRR</span>
               <span class="font-serif italic text-2xl font-bold text-brand-accent">$84,000</span>
             </div>
           </div>
@@ -603,23 +611,23 @@
         <!-- Case 4 (NEW) -->
         <div class="p-10 md:p-12 hover:bg-white transition-colors flex flex-col cursor-pointer gs-reveal-up" style="transition-delay: 300ms;">
           <div class="flex flex-wrap justify-between items-start mb-12 gap-4">
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted">Ниша: Beauty & Wellness</div>
-            <div class="text-xs font-bold uppercase tracking-widest border border-grid px-3 py-1.5 text-brand-accent bg-white">+212% записей</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted">Nisza: Beauty & Wellness</div>
+            <div class="text-xs font-bold uppercase tracking-widest border border-grid px-3 py-1.5 text-brand-accent bg-white">+212% zapisów</div>
           </div>
           <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-10 pr-8">
-            Перезапуск воронки <br>сети SPA-салонов
+            Restart lejka <br>sieci salonów SPA
           </h3>
           <div class="flex flex-col gap-4 mt-auto">
             <div class="flex justify-between items-end border-b border-grid pb-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">Записей до / после</span>
-              <span class="font-medium">180 → 562 / мес</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">Zapisy przed / po</span>
+              <span class="font-medium">180 → 562 / mies.</span>
             </div>
             <div class="flex justify-between items-end border-b border-grid pb-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">Средний чек</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">Średnia stawka</span>
               <span class="font-medium">5,400 ₽</span>
             </div>
             <div class="flex justify-between items-end pt-2">
-              <span class="text-xs uppercase tracking-widest text-brand-muted">Выручка / месяц</span>
+              <span class="text-xs uppercase tracking-widest text-brand-muted">Przychód / miesiąc</span>
               <span class="font-serif italic text-2xl font-bold text-brand-accent">3,034,800 ₽</span>
             </div>
           </div>
@@ -634,48 +642,48 @@
     <section id="testimonials" class="border-b border-grid">
       <div class="p-10 md:p-16 border-b border-grid flex flex-col md:flex-row justify-between items-baseline gap-8">
         <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tighter leading-none gs-reveal-up">
-          Результаты <br>
-          <span class="font-serif italic font-light text-brand-muted lowercase">учеников.</span>
+          Wyniki <br>
+          <span class="font-serif italic font-light text-brand-muted lowercase">kursantów.</span>
         </h2>
         <div class="text-sm font-mono uppercase tracking-widest text-brand-accent max-w-[280px] text-right hidden md:block">
-          Карьеры, построенные на дисциплине.
+          Kariery zbudowane na dyscyplinie.
         </div>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <div class="p-8 md:p-10 border-b md:border-r lg:border-b-0 border-grid flex flex-col gs-reveal-up">
           <div class="text-5xl font-serif italic text-brand-accent mb-6 leading-none">«</div>
-          <p class="text-brand-text leading-relaxed mb-10 flex-1">Через 8 недель закрыл первый корпоративный контракт на 180,000 ₽. Никаких «накруток» — только настроенная воронка с прозрачной аналитикой.</p>
+          <p class="text-brand-text leading-relaxed mb-10 flex-1">Po 8 tygodniach zamknąłem pierwszy kontrakt korporacyjny na 18 000 zł. Żadnego „nabijania” — tylko poukładany lejek z przejrzystą analityką.</p>
           <div class="border-t border-grid pt-6">
-            <div class="font-bold uppercase tracking-tight">Кирилл М.</div>
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mt-1">Beauty-салон, СПб</div>
+            <div class="font-bold uppercase tracking-tight">Kamil M.</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mt-1">Salon beauty, Kraków</div>
           </div>
         </div>
 
         <div class="p-8 md:p-10 border-b md:border-b-0 md:border-r border-grid flex flex-col gs-reveal-up" style="transition-delay: 80ms;">
           <div class="text-5xl font-serif italic text-brand-accent mb-6 leading-none">«</div>
-          <p class="text-brand-text leading-relaxed mb-10 flex-1">До курса считала бюджеты «на глаз». После — каждый рубль приходит с пониманием LTV/CAC. Чек поднялся с 30k до 90k за квартал.</p>
+          <p class="text-brand-text leading-relaxed mb-10 flex-1">Przed kursem liczyłam budżety „na oko”. Po nim każda złotówka ma uzasadnienie w LTV/CAC. Stawka wzrosła z 3 tys. do 9 tys. w kwartał.</p>
           <div class="border-t border-grid pt-6">
-            <div class="font-bold uppercase tracking-tight">Анна Б.</div>
+            <div class="font-bold uppercase tracking-tight">Anna B.</div>
             <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mt-1">Freelance / Education</div>
           </div>
         </div>
 
         <div class="p-8 md:p-10 border-b md:border-r lg:border-b-0 border-grid flex flex-col gs-reveal-up" style="transition-delay: 160ms;">
           <div class="text-5xl font-serif italic text-brand-accent mb-6 leading-none">«</div>
-          <p class="text-brand-text leading-relaxed mb-10 flex-1">Уволился с найма на 4-м модуле. Сейчас веду 3 проекта в нише real estate с управляемым бюджетом $80k / мес. «Архитектор» окупился за 6 недель.</p>
+          <p class="text-brand-text leading-relaxed mb-10 flex-1">Odszedłem z etatu na 4. module. Teraz prowadzę 3 projekty w nieruchomościach z budżetem $80k / mies. „Architekt” zwrócił się w 6 tygodni.</p>
           <div class="border-t border-grid pt-6">
-            <div class="font-bold uppercase tracking-tight">Артур К.</div>
+            <div class="font-bold uppercase tracking-tight">Artur K.</div>
             <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mt-1">Real Estate Marketing</div>
           </div>
         </div>
 
         <div class="p-8 md:p-10 flex flex-col gs-reveal-up" style="transition-delay: 240ms;">
           <div class="text-5xl font-serif italic text-brand-accent mb-6 leading-none">«</div>
-          <p class="text-brand-text leading-relaxed mb-10 flex-1">Главное — не «как накрутить охваты», а как считать unit-economics. Это знание стоит дороже самого курса. Через 3 месяца стартовала собственное агентство.</p>
+          <p class="text-brand-text leading-relaxed mb-10 flex-1">Najważniejsze nie jest „jak nabić zasięgi”, tylko jak liczyć unit economics. Ta wiedza jest warta więcej niż sam kurs. Po 3 miesiącach otworzyłam własną agencję.</p>
           <div class="border-t border-grid pt-6">
-            <div class="font-bold uppercase tracking-tight">Дарья В.</div>
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mt-1">Founder, SMM-агентство</div>
+            <div class="font-bold uppercase tracking-tight">Daria W.</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-muted mt-1">Founder, agencja SMM</div>
           </div>
         </div>
       </div>
@@ -688,54 +696,54 @@
     <section id="investment" class="border-b border-grid">
       <div class="p-10 md:p-16 border-b border-grid text-center flex flex-col items-center">
         <h2 class="text-[clamp(3.5rem,7vw,6rem)] font-bold uppercase tracking-tighter gs-reveal-up leading-none mb-4">
-          Стоимость
+          Cena
         </h2>
-        <span class="text-[clamp(2.5rem,5vw,4.5rem)] font-serif italic text-brand-accent gs-reveal-up">инвестиций</span>
+        <span class="text-[clamp(2.5rem,5vw,4.5rem)] font-serif italic text-brand-accent gs-reveal-up">inwestycji</span>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3">
         <!-- Tariff 01 -->
-        <div class="p-10 md:p-12 lg:p-16 border-b md:border-b-0 md:border-r border-grid flex flex-col hover-invert cursor-pointer gs-reveal-up" onclick="togglePanel('Тариф: Теоретик')">
-          <div class="text-xs font-mono uppercase tracking-widest mb-12 text-brand-muted">Асимметрия / 01</div>
-          <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-4">Теоретик</h3>
+        <div class="p-10 md:p-12 lg:p-16 border-b md:border-b-0 md:border-r border-grid flex flex-col hover-invert cursor-pointer gs-reveal-up" onclick="togglePanel('Pakiet: Teoretyk')">
+          <div class="text-xs font-mono uppercase tracking-widest mb-12 text-brand-muted">Asymetria / 01</div>
+          <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-4">Teoretyk</h3>
           <div class="text-4xl lg:text-5xl font-serif italic mb-12 tracking-tight">19,900₽</div>
           <div class="flex-1 flex flex-col gap-4 text-brand-muted border-t border-grid py-6 group-hover:border-white/20">
-            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Доступ к материалам</div>
-            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Шаблоны договоров</div>
-            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Самостоятельная работа</div>
+            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Dostęp do materiałów</div>
+            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Wzory umów</div>
+            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Praca własna</div>
           </div>
           <div class="uppercase tracking-widest text-xs lg:text-sm font-bold flex items-center justify-between mt-8 border-t border-grid pt-6 group-hover:border-white/20">
-            Регистрация <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Rejestracja <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
         </div>
 
         <!-- Tariff 02 -->
-        <div class="p-10 md:p-12 lg:p-16 border-b md:border-b-0 md:border-r border-grid flex flex-col bg-white hover-invert cursor-pointer gs-reveal-up" onclick="togglePanel('Тариф: Практик')" style="transition-delay: 50ms;">
-          <div class="text-xs font-mono uppercase tracking-widest mb-12 text-brand-accent">Симметрия / 02</div>
-          <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-4">Практик</h3>
+        <div class="p-10 md:p-12 lg:p-16 border-b md:border-b-0 md:border-r border-grid flex flex-col bg-white hover-invert cursor-pointer gs-reveal-up" onclick="togglePanel('Pakiet: Praktyk')" style="transition-delay: 50ms;">
+          <div class="text-xs font-mono uppercase tracking-widest mb-12 text-brand-accent">Symetria / 02</div>
+          <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-4">Praktyk</h3>
           <div class="text-4xl lg:text-5xl font-serif italic mb-12 tracking-tight text-brand-accent">29,900₽</div>
           <div class="flex-1 flex flex-col gap-4 text-brand-muted border-t border-grid py-6 group-hover:border-white/20">
-            <div class="flex items-start gap-3"><span class="text-brand-accent/50 hover-invert-target">—</span> Проверка ДЗ кураторами</div>
-            <div class="flex items-start gap-3"><span class="text-brand-accent/50 hover-invert-target">—</span> Доступ в закрытый клуб</div>
-            <div class="flex items-start gap-3"><span class="text-brand-accent/50 hover-invert-target">—</span> Секретный ИИ модуль</div>
+            <div class="flex items-start gap-3"><span class="text-brand-accent/50 hover-invert-target">—</span> Sprawdzanie zadań przez kuratorów</div>
+            <div class="flex items-start gap-3"><span class="text-brand-accent/50 hover-invert-target">—</span> Dostęp do zamkniętego klubu</div>
+            <div class="flex items-start gap-3"><span class="text-brand-accent/50 hover-invert-target">—</span> Sekretny moduł AI</div>
           </div>
           <div class="uppercase tracking-widest text-xs lg:text-sm font-bold flex items-center justify-between mt-8 border-t border-grid pt-6 group-hover:border-white/20">
-            Выбрать Стандарт <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Wybierz Standard <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
         </div>
 
         <!-- Tariff 03 -->
-        <div class="p-10 md:p-12 lg:p-16 flex flex-col hover-invert cursor-pointer gs-reveal-up" onclick="togglePanel('Тариф: Архитектор')" style="transition-delay: 100ms;">
-          <div class="text-xs font-mono uppercase tracking-widest mb-12 text-brand-muted">Авангард / 03</div>
-          <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-4">Архитектор</h3>
+        <div class="p-10 md:p-12 lg:p-16 flex flex-col hover-invert cursor-pointer gs-reveal-up" onclick="togglePanel('Pakiet: Architekt')" style="transition-delay: 100ms;">
+          <div class="text-xs font-mono uppercase tracking-widest mb-12 text-brand-muted">Awangarda / 03</div>
+          <h3 class="text-2xl md:text-3xl font-bold uppercase tracking-tight mb-4">Architekt</h3>
           <div class="text-4xl lg:text-5xl font-serif italic mb-12 tracking-tight">59,900₽</div>
           <div class="flex-1 flex flex-col gap-4 text-brand-muted border-t border-grid py-6 group-hover:border-white/20">
-            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Личный трекинг экспертом</div>
-            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Гарантия трудоустройства</div>
-            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Разбор твоих проектов</div>
+            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Osobisty tracking przez eksperta</div>
+            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Gwarancja zatrudnienia</div>
+            <div class="flex items-start gap-3"><span class="text-brand-text/30 hover-invert-target">—</span> Omówienie Twoich projektów</div>
           </div>
           <div class="uppercase tracking-widest text-xs lg:text-sm font-bold flex items-center justify-between mt-8 border-t border-grid pt-6 group-hover:border-white/20">
-            Оформить VIP <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Wybierz VIP <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
         </div>
       </div>
@@ -747,8 +755,8 @@
     <section id="faq" class="border-b border-grid grid grid-cols-1 lg:grid-cols-12 min-h-[60vh]">
       <div class="lg:col-span-5 p-10 md:p-16 border-b lg:border-b-0 lg:border-r border-grid flex flex-col justify-between bg-brand-text text-brand-bg">
         <div>
-          <h2 class="text-5xl md:text-6xl font-bold uppercase tracking-tighter mb-4 gs-reveal-up">Детали.</h2>
-          <p class="font-serif italic text-2xl text-brand-accent gs-reveal-up">Для тех, кто сомневается.</p>
+          <h2 class="text-5xl md:text-6xl font-bold uppercase tracking-tighter mb-4 gs-reveal-up">Szczegóły.</h2>
+          <p class="font-serif italic text-2xl text-brand-accent gs-reveal-up">Dla tych, którzy się wahają.</p>
         </div>
         <div class="hidden lg:flex w-20 h-20 rounded-full border border-brand-bg/20 items-center justify-center gs-reveal-up">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" class="text-brand-accent">
@@ -761,33 +769,33 @@
         <!-- FAQ 1 -->
         <details class="group border-b border-grid p-10 md:p-14 cursor-pointer hover:bg-white transition-colors" name="faq">
           <summary class="list-none flex justify-between items-center text-xl md:text-2xl font-bold uppercase tracking-tight focus:outline-none select-none">
-            Я полный "Ноль". Смогу ли я начать? 
+            Jestem kompletnym „zerem”. Dam radę zacząć? 
             <span class="text-brand-accent text-4xl font-light transform group-open:rotate-45 transition-transform duration-300 pointer-events-none">+</span>
           </summary>
           <div class="pt-8 text-brand-muted leading-relaxed text-lg max-w-[55ch]">
-            Программа выстроена линейно. Модуль I погружает вас в азы архитектуры контента, поэтапно подготавливая к сложному парсингу и закупке трафика. Вам не нужен первоначальный опыт, нужна только железная дисциплина.
+            Program jest ułożony liniowo. Moduł I wprowadza w podstawy architektury treści i krok po kroku przygotowuje do zaawansowanego parsowania i zakupu ruchu. Nie potrzebujesz wcześniejszego doświadczenia — potrzebujesz żelaznej dyscypliny.
           </div>
         </details>
         
         <!-- FAQ 2 -->
         <details class="group border-b border-grid p-10 md:p-14 cursor-pointer hover:bg-white transition-colors" name="faq">
           <summary class="list-none flex justify-between items-center text-xl md:text-2xl font-bold uppercase tracking-tight focus:outline-none select-none">
-            Нужен ли мне мощный компьютер?
+            Czy potrzebuję mocnego komputera?
             <span class="text-brand-accent text-4xl font-light transform group-open:rotate-45 transition-transform duration-300 pointer-events-none">+</span>
           </summary>
           <div class="pt-8 text-brand-muted leading-relaxed text-lg max-w-[55ch]">
-            Абсолютно нет. Базового ноутбука, поддерживающего Excel и Google Chrome, достаточно для запуска аналитических таблиц и рекламного кабинета. 90% работы происходит в браузерных системах.
+            Absolutnie nie. Podstawowy laptop obsługujący Excela i Google Chrome wystarczy, by uruchomić arkusze analityczne i panel reklamowy. 90% pracy dzieje się w przeglądarce.
           </div>
         </details>
 
         <!-- FAQ 3 -->
         <details class="group p-10 md:p-14 cursor-pointer hover:bg-white transition-colors" name="faq">
           <summary class="list-none flex justify-between items-center text-xl md:text-2xl font-bold uppercase tracking-tight focus:outline-none select-none">
-            Как происходит гарантия трудоустройства?
+            Jak działa gwarancja zatrudnienia?
             <span class="text-brand-accent text-4xl font-light transform group-open:rotate-45 transition-transform duration-300 pointer-events-none">+</span>
           </summary>
           <div class="pt-8 text-brand-muted leading-relaxed text-lg max-w-[55ch]">
-            На тарифе «Архитектор» после успешной сдачи итогового проекта вы отправляетесь на боевую стажировку к нашим корпоративным партнёрам. Квалифицированные ученики получают первый контракт в первый месяц.
+            W pakiecie „Architekt” po zaliczeniu projektu końcowego trafiasz na staż bojowy u naszych partnerów korporacyjnych. Wykwalifikowani kursanci podpisują pierwszy kontrakt w pierwszym miesiącu.
           </div>
         </details>
       </div>
@@ -798,32 +806,32 @@
          ========================================= -->
     <section class="border-b border-grid bg-brand-text text-brand-bg">
       <div class="p-10 md:p-16 lg:p-24 flex flex-col items-start max-w-[1200px] mx-auto">
-        <div class="text-xs font-mono uppercase tracking-widest text-brand-accent mb-8 gs-reveal-up">Финальное слово</div>
+        <div class="text-xs font-mono uppercase tracking-widest text-brand-accent mb-8 gs-reveal-up">Słowo końcowe</div>
         <h2 class="text-[clamp(2.5rem,6vw,5.5rem)] font-bold uppercase tracking-tighter leading-[0.95] mb-12 gs-reveal-up">
-          Если ты дочитал до сих пор —<br>
-          <span class="font-serif italic font-light text-brand-accent lowercase tracking-normal">ты не теоретик.</span>
+          Jeśli doczytałeś do tego miejsca —<br>
+          <span class="font-serif italic font-light text-brand-accent lowercase tracking-normal">nie jesteś teoretykiem.</span>
         </h2>
         <p class="text-xl text-brand-bg/70 max-w-[55ch] leading-relaxed mb-12 gs-reveal-up">
-          Дисциплина работает. Закрепи место в группе сейчас — следующий запуск через 4 месяца. До старта осталось 12 дней.
+          Dyscyplina działa. Zarezerwuj miejsce w grupie teraz — kolejny nabór za 4 miesiące. Do startu zostało 12 dni.
         </p>
 
         <div class="flex flex-wrap items-center gap-12 mb-16 border-y border-brand-bg/15 py-8 w-full gs-reveal-up">
           <div>
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-bg/50 mb-2">Стартовых мест</div>
-            <div class="text-4xl font-serif italic">14 из 24</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-bg/50 mb-2">Miejsc startowych</div>
+            <div class="text-4xl font-serif italic">14 z 24</div>
           </div>
           <div>
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-bg/50 mb-2">До старта</div>
-            <div class="text-4xl font-serif italic">12 дней</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-bg/50 mb-2">Do startu</div>
+            <div class="text-4xl font-serif italic">12 dni</div>
           </div>
           <div>
-            <div class="text-xs font-mono uppercase tracking-widest text-brand-bg/50 mb-2">Следующий поток</div>
-            <div class="text-4xl font-serif italic">через 4 мес</div>
+            <div class="text-xs font-mono uppercase tracking-widest text-brand-bg/50 mb-2">Kolejny nabór</div>
+            <div class="text-4xl font-serif italic">za 4 mies.</div>
           </div>
         </div>
 
-        <button onclick="togglePanel('Финальная заявка')" class="bg-brand-accent text-brand-bg px-10 py-5 text-sm font-bold uppercase tracking-widest hover:bg-brand-bg hover:text-brand-text transition-colors flex items-center gap-4 gs-reveal-up">
-          Забронировать место
+        <button onclick="togglePanel('Zgłoszenie końcowe')" class="bg-brand-accent text-brand-bg px-10 py-5 text-sm font-bold uppercase tracking-widest hover:bg-brand-bg hover:text-brand-text transition-colors flex items-center gap-4 gs-reveal-up">
+          Zarezerwuj miejsce
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
       </div>
@@ -835,7 +843,7 @@
       <div class="flex items-center gap-2 text-brand-text">
         <span class="w-2 h-2 rounded-full bg-brand-accent"></span> SMM Vanguard / 2026
       </div>
-      <div class="mt-4 md:mt-0 opacity-50">Концепт-проект · бренд вымышленный · демо</div>
+      <div class="mt-4 md:mt-0 opacity-50">Projekt koncepcyjny · marka fikcyjna · demo</div>
     </footer>
   </main>
 
@@ -847,30 +855,30 @@
     
     <div id="slide-panel" class="absolute top-0 right-0 w-full max-w-md h-full bg-brand-bg border-l border-grid shadow-2xl flex flex-col z-10">
       <div class="p-8 border-b border-grid flex items-center justify-between bg-brand-bg">
-        <div class="font-bold uppercase tracking-tighter text-2xl">Регистрация</div>
+        <div class="font-bold uppercase tracking-tighter text-2xl">Rejestracja</div>
         <button onclick="togglePanel()" class="w-10 h-10 rounded-full border border-grid flex items-center justify-center hover:bg-brand-text hover:text-white transition-colors">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
         </button>
       </div>
 
       <div class="p-8 flex-1 overflow-y-auto w-full">
-        <p class="font-serif italic text-2xl text-brand-muted mb-10" id="panel-subtitle">Оставьте данные для проверки свободных мест.</p>
+        <p class="font-serif italic text-2xl text-brand-muted mb-10" id="panel-subtitle">Zostaw dane, sprawdzimy wolne miejsca.</p>
         
         <form onsubmit="handleFormSubmit(event)" class="flex flex-col gap-8">
           <input type="hidden" id="form-tariff" value="">
           
           <div class="flex flex-col gap-2">
-            <label class="text-xs font-mono uppercase tracking-widest text-brand-text">Полное имя</label>
-            <input type="text" required class="w-full bg-transparent border-b border-grid py-4 text-xl placeholder-brand-muted/40 focus:outline-none focus:border-brand-text transition-colors rounded-none" placeholder="Александр">
+            <label class="text-xs font-mono uppercase tracking-widest text-brand-text">Imię i nazwisko</label>
+            <input type="text" required class="w-full bg-transparent border-b border-grid py-4 text-xl placeholder-brand-muted/40 focus:outline-none focus:border-brand-text transition-colors rounded-none" placeholder="Aleksander">
           </div>
           
           <div class="flex flex-col gap-2">
-            <label class="text-xs font-mono uppercase tracking-widest text-brand-text">Электронная почта</label>
+            <label class="text-xs font-mono uppercase tracking-widest text-brand-text">Adres e-mail</label>
             <input type="email" required class="w-full bg-transparent border-b border-grid py-4 text-xl placeholder-brand-muted/40 focus:outline-none focus:border-brand-text transition-colors rounded-none" placeholder="work@agency.com">
           </div>
 
           <button type="submit" class="w-full mt-8 bg-brand-text text-brand-bg py-5 text-sm font-bold uppercase tracking-widest hover:bg-brand-accent transition-colors flex items-center justify-center gap-4">
-            <span id="btn-text">Подтвердить</span>
+            <span id="btn-text">Potwierdź</span>
             <svg id="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" class="text-brand-bg"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </button>
         </form>
@@ -893,10 +901,10 @@
         slideContainer.classList.add('panel-open');
         document.body.style.overflow = 'hidden';
         if (title) {
-          panelSubtitle.innerText = `${title}. Заполните форму для фиксации.`;
+          panelSubtitle.innerText = `${title}. Wypełnij formularz, aby zarezerwować.`;
           tariffInput.value = title;
         } else {
-          panelSubtitle.innerText = `Консультация. Оставьте контакты для связи.`;
+          panelSubtitle.innerText = `Konsultacja. Zostaw kontakt, odezwiemy się.`;
         }
       } else {
         slideContainer.classList.remove('panel-open');
@@ -908,10 +916,10 @@
       e.preventDefault();
       const btnText = document.getElementById('btn-text');
       const originalText = btnText.innerText;
-      btnText.innerText = "ОБРАБОТКА...";
+      btnText.innerText = "PRZETWARZANIE...";
       
       setTimeout(() => {
-        btnText.innerText = "УСПЕШНО";
+        btnText.innerText = "GOTOWE";
         setTimeout(() => {
           togglePanel();
           btnText.innerText = originalText;
